@@ -6,13 +6,12 @@ We have evaluated CR has a loss function for the application of both affine and 
 
 If you find this code is useful in your research, please consider to cite:
 
-    @article{chen2022transmorph,
-    title = {TransMorph: Transformer for unsupervised medical image registration},
-    journal = {Medical Image Analysis},
-    pages = {102615},
-    year = {2022},
-    issn = {1361-8415},
-    doi = {https://doi.org/10.1016/j.media.2022.102615},
-    url = {https://www.sciencedirect.com/science/article/pii/S1361841522002432},
-    author = {Junyu Chen and Eric C. Frey and Yufan He and William P. Segars and Ye Li and Yong Du}
+    @misc{chen2024unsupervised,
+      title={Unsupervised Learning of Multi-modal Affine Registration for PET/CT}, 
+      author={Junyu Chen and Yihao Liu and Shuwen Wei and Aaron Carass and Yong Du},
+      year={2024},
+      eprint={2409.13863},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2409.13863}, 
     }
