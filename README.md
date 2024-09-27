@@ -1,9 +1,14 @@
 # Correlation Ratio for Multi- and Mono-modal Image Registration
 This repository hosts PyTorch implementation of Correlation Ratio for medical image registration, originally proposed in [this paper](https://link.springer.com/chapter/10.1007/BFb0056301).
 
-[Chen, Junyu, et al. "Unsupervised Learning of Multi-modal Affine Registration for PET/CT,” 2024 IEEE NSS/MIC](https://arxiv.org/pdf/2409.13863v1)
+1. [Chen, Junyu, et al. "Unsupervised Learning of Multi-modal Affine Registration for PET/CT,” 2024 IEEE NSS/MIC](https://arxiv.org/pdf/2409.13863v1)
+2. To be added...
 
 We have evaluated CR has a loss function for the application of both affine and deformable registration.
+
+You can directly find the PyTroch implementation of correlation ratio and local-patch-based correlation ratio here:
+1. [correlation ratio](https://github.com/junyuchen245/Correlation_Ratio/blob/91c142199da6e877ff6276ccf7cfe795e66eccb0/affine/losses.py#L235)
+2. [local correlation ratio](https://github.com/junyuchen245/Correlation_Ratio/blob/91c142199da6e877ff6276ccf7cfe795e66eccb0/affine/losses.py#L300)
 
 ## PET/CT Multi-Modal Affine Registration
 <p align=center><img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/AffineRegAlg.jpg" width="400"/></p>
