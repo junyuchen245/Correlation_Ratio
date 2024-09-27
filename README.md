@@ -1,5 +1,5 @@
 # Correlation Ratio for Multi- and Mono-modal Image Registration
-This repository hosts PyTorch implementation of Correlation Ratio for medical image registration, originally proposed in [this paper](https://link.springer.com/chapter/10.1007/BFb0056301). We have evaluated CR has a loss function for the application of both affine and deformable registration.
+This repository hosts PyTorch implementation of ***Correlation Ratio*** for medical image registration, originally proposed in [this paper](https://link.springer.com/chapter/10.1007/BFb0056301). We have evaluated CR has a loss function for the application of both **affine** and **deformable** registration.
 
 1. [Chen, Junyu, et al. "Unsupervised Learning of Multi-modal Affine Registration for PET/CT,” 2024 IEEE NSS/MIC](https://arxiv.org/pdf/2409.13863v1)
 2. To be added...
