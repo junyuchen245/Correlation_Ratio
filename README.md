@@ -3,7 +3,14 @@ This repository hosts PyTorch implementation of Correlation Ratio for medical im
 
 We have evaluated CR has a loss function for the application of both affine and deformable registration.
 
+## PET/CT Multi-Modal Affine Registration
+<p align=center><img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/AffineRegAlg.jpg" width="400"/></p>
+<img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/Affine_PETCT.jpg" width="1000"/>
 
+## T1/T2 Multi-Modal Brain MRI Deformable Registration
+To be added...
+
+## Citation
 If you find this code is useful in your research, please consider to cite:
 
     @misc{chen2024unsupervised,
