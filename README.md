@@ -9,8 +9,13 @@ You can find the PyTorch implementation of the correlation ratio and local-patch
 - [local correlation ratio](https://github.com/junyuchen245/Correlation_Ratio/blob/91c142199da6e877ff6276ccf7cfe795e66eccb0/affine/losses.py#L300)
 
 ## PET/CT Multi-Modal Affine Registration
-<p align=center><img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/AffineRegAlg.jpg" width="400"/></p>
-<img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/Affine_PETCT.jpg" width="1000"/>
+The source code for PET/CT affine registration can be found [here](https://github.com/junyuchen245/Correlation_Ratio/tree/main/affine), and you will need to install the required packages listed in the `requirements.txt` file.
+
+#### *Multi-scale Instance Optimization*
+<img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/AffineRegAlg.jpg" width="400"/>
+
+#### *Qualitative Results*
+<img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/Affine_PETCT.jpg" width="700"/>
 
 ## T1/T2 Brain MRI Multi-Modal Deformable Registration
 To be added...
