@@ -7,7 +7,7 @@ We have evaluated CR has a loss function for the application of both affine and 
 <p align=center><img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/AffineRegAlg.jpg" width="400"/></p>
 <img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/Affine_PETCT.jpg" width="1000"/>
 
-## T1/T2 Multi-Modal Brain MRI Deformable Registration
+## T1/T2 Brain MRI Multi-Modal Deformable Registration
 To be added...
 
 ## Citation
