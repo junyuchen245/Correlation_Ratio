@@ -11,7 +11,7 @@ You can find the PyTorch implementation of the correlation ratio and local-patch
 ## PET/CT Multi-Modal Affine Registration
 The source code for PET/CT affine registration can be found [here](https://github.com/junyuchen245/Correlation_Ratio/tree/main/affine), and you will need to install the required packages listed in the `requirements.txt` file.
 
-#### *Multi-scale Instance Optimization*
+#### *Multi-scale Instance-specific Optimization*
 <img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/AffineRegAlg.jpg" width="400"/>
 
 #### *Qualitative Results*
