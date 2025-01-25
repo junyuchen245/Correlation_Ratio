@@ -22,7 +22,7 @@ The source code for PET/CT affine registration can be found [here](https://githu
 <img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/Affine_PETCT.jpg" width="700"/>
 
 ## T1/T2 Brain MRI Multi-Modal Deformable Registration
-To be added...
+<img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/DIR_Brain_CR.jpg" width="700"/>
 
 ## Citation
 If you find this code is useful in your research, please consider to cite:
