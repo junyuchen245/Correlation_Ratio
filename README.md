@@ -6,7 +6,7 @@ keywords: correlation ratio, image registration, multi-modal image registration
 This repository hosts **PyTorch** implementation of ***Correlation Ratio*** for medical image registration, originally proposed in [this paper](https://link.springer.com/chapter/10.1007/BFb0056301). We have evaluated CR has a loss function for the application of both **affine** and **deformable** registration.
 
 1. ***Affine Registration***: [Chen, Junyu, et al. "Unsupervised Learning of Multi-modal Affine Registration for PET/CT,” 2024 IEEE NSS/MIC](https://arxiv.org/pdf/2409.13863v1)
-2. To be added...
+2. ***Deformable Registration***: X. Chen, et al., "Correlation ratio for unsupervised learning of multi-modal deformable registration", Proceedings of SPIE Medical Imaging (SPIE-MI 2025), San Diego, CA, February 16–20, 2025
 
 You can find the PyTorch implementation of the correlation ratio and local-patch-based correlation ratio here:
 - [correlation ratio](https://github.com/junyuchen245/Correlation_Ratio/blob/91c142199da6e877ff6276ccf7cfe795e66eccb0/affine/losses.py#L235)
@@ -22,10 +22,15 @@ The source code for PET/CT affine registration can be found [here](https://githu
 <img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/Affine_PETCT.jpg" width="700"/>
 
 ## T1/T2 Brain MRI Multi-Modal Deformable Registration
+CR and diffusion regularization as the loss function for unsupervised learning of multimodal deformable image registration.
+
+#### *Qualitative Results*
 <img src="https://github.com/junyuchen245/Correlation_Ratio/blob/main/figs/DIR_Brain_CR.jpg" width="700"/>
 
 ## Citation
 If you find this code is useful in your research, please consider to cite:
+
+#### *Affine Registration*
 
     @misc{chen2024unsupervised,
       title={Unsupervised Learning of Multi-modal Affine Registration for PET/CT}, 
@@ -35,4 +40,14 @@ If you find this code is useful in your research, please consider to cite:
       archivePrefix={arXiv},
       primaryClass={eess.IV},
       url={https://arxiv.org/abs/2409.13863}, 
+    }
+
+#### *Deformable Registration*
+
+    @inproceedings{chen2024correlation,
+      title={Correlation ratio for unsupervised learning of multi-modal deformable registration}, 
+      author={Xiaojian Chen, Yihao Liu, Shuwen Wei, Aaron Carass, Yong Du, and Junyu Chen},
+      booktitle={Medical Imaging 2025: Image Processing}
+      year={2025},
+      organization={SPIE}
     }
